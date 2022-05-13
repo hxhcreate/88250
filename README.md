@@ -1,53 +1,60 @@
-### 我和妻子的开源生活
+<p algin='center'>
+    <img src="https://raw.githubusercontent.com/hxhcreate/hxhcreate/master/name.svg" alt="hxhcreate" />
+</p>
 
-我和我的妻子 [Vanessa](https://github.com/Vanessa219) 从 2009 年开始编写开源软件，其中我们一直在维护的 Solo 项目到现在已经有 10 年了。我们的创作领域主要围绕博客和社区系统开展，我们一直在努力实现 [B3log 构思 - 分布式社区网络](https://ld246.com/article/1546941897596)。
+<p align="center">
+     <a title="github" target="_blank" href="https://github.com/hxhcreate"><img src="https://img.shields.io/badge/dynamic/json?label=GitHub&suffix=%20followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dhxhcreate&labelColor=282c34&color=353940&logo=github&longCache=true" /></a>
+    <a title="zhihu" target="_blank" href="https://www.zhihu.com/people/okczong-hui-ying-de"><img src="https://img.shields.io/badge/dynamic/json?color=353940&labelColor=0084ff&label=Zhihu&suffix=%20followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dzhihu%26queryKey%3Dokczong-hui-ying-de&logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNjMzMjY1Mzc4NzU2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjUxNTMiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48L3N0eWxlPjwvZGVmcz48cGF0aCBkPSJNNTc2LjggODA3LjUyaDU3LjI4bDIwLjggNzIuNDggMTAwLjgtNzIuNDhoMTQxLjkyVjIyOS4yOEg1NzYuOHogbTY3Ljg0LTUxMy45Mkg4MzJ2NDQ4aC02Ni4yNGwtODUuMTIgNjQuOTYtMTguNTYtNjQuOTZoLTE3LjQ0ek0xMjYuNCA4ODQuNDhhMTQ5LjQ0IDE0OS40NCAwIDAgMCAxMjMuODQtMTAuNGM2MC45Ni0zNiAxMDUuOTItMTk0LjU2IDEwNS45Mi0xOTQuNTZsMTQ0IDE3Ny40NHMxMy4xMi04NC40OC0yLjI0LTEwOC4zMi05OS4wNC0xMTkuODQtOTkuMDQtMTE5Ljg0bC0zNi42NCAzMiAyNi4wOC0xMDQuOTZINTQ0czAtNjEuNzYtMzAuNTYtNjUuMjgtMTI1LjQ0IDAtMTI1LjQ0IDB2LTE5Mkg1MjhzLTEuNi02NC0yOC44LTY0SDI3MC41NmwzNS41Mi0xMDQuNjRzLTU3LjYgMy4zNi03Ny45MiAzOS4zNi04Ni40IDIyMS42LTg2LjQgMjIxLjYgMjEuOTIgMTAuMjQgNTkuMi0xNy4yOGExNDcuNjggMTQ3LjY4IDAgMCAwIDQ5LjI4LTc1LjUybDY3Ljg0LTMuMzZMMzIwIDQ5MS4ycy0xMTYuOTYtMS43Ni0xNDAuNjQgMC0zNy4yOCA2NS4yOC0zNy4yOCA2NS4yOEgzMjBzLTE1LjIgMTA4LjE2LTYwLjk2IDE4Ny4yLTEzMi42NCAxNDAuOC0xMzIuNjQgMTQwLjh6IiBmaWxsPSIjZmZmZmZmIiBwLWlkPSI1MTU0Ij48L3BhdGg+PC9zdmc+&longCache=true" ></a>
+    <a title="bilibili" target="_blank" href="https://space.bilibili.com/629023533"><img src="https://img.shields.io/badge/dynamic/json?color=353940&labelColor=f27596&label=Bilibili&suffix=%20followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dbilibili%26queryKey%3D629023533&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAD7ElEQVR4nO2dW9WrMBCFK6ESkFAJSKiESqgEHCABCZWAhEpAAhL2ecik5dDc/pXLBDLfWnlqy0xmJ5BMQnq5CIIgCIIgCIIgCIIgCEIBAHQAemYfrgCunD6wAKAHsEKxALgx+bCQD8/S9tmgVqeDr1lLigDgZvDhXso+K9TyTBQRwRJ8AHjntl0Flh5QRAQK/mKxPeayWx2OXpBNBKiHvi34b7T2MC4pAvW6twR/RwkRKPizBN8CgEcuESj4Lwm+BwBjahEk+H8EwJRKhOaCDzW8e1JLfkUUH1NgmR3XmHffHR1l+72BSs8d7w8U+JDAnZERQMcV+CtUi7dNqFqibB4J7vtrq7xKCuAasbTMXCL4T+5aVk6+2xHUrWdhruAR6HIJcOeu2UHI8zyAe2ytWfEdWz9PVvQ8YAmIQ5dDAB9LFsMVAv8oMO2zAGrC5WNIarRiAuKR9jYEd9pY08aa6uUzIHGRdkgKd8pY0yc1WjEBAqypDYoAG0QAZkQAZkQAZkQAZk4vANQenjsSzS3I/wcSbXU5jQBUkRtdf4Rar90v8kSv3+I3ffCCSpk8I/w+lgDkdI/v2rEp2CaiWm1AsDQLlDAD+dlFXLMeAaCSeLZdaSFE5VUQNot38cKuEeBgAsSuG0flVZBmEanbXfNQAsS0fgBYIn2fIu3/BBMHEyBmDXlFfA8IzeHb+Ems4WAChKykrVA9ZfsQTL57jXzRg4A5wC/A8N4ADiZAZwm2XjW75Qh2KOTfA0p4kygPw28OJcCVgn3nDnYo2EwEYRgGH0qAMyICMCMCMCMCMCMCMCMCMCMCfP3qwHDOQ4AAUekTk8FaBRihJnZdYbvtCGC7LvmkM63GjVDINPFrQgCq5ETXfmMzI90FXzPvfqt7x4rEu/ZaEcCUxFvgz2zO+BUn6UkoaEEAsptiMSX5e8FoRYCN7cVgb4Vq7U/H50Pq4JNP7Qiw8UFnJwcK+tXy+Wj6PLEvPgHSHv5UgwA1IQIwwyFAyLJin9RoxYgAzAQIkPwNmf26busC+OIx5TDqo5nDT+F/SS/9CYzwb+No49zNy2evkYv0LywGGAXUvp6eSneycqOic0w20k7CNgKE7jJunSGLACTCxF27ylmQc98T5MQUH49swd+I0HPXslLKnT0N+wnkrTKi9JZL/L9i1SorMmdeQ4TQQ7OFMxIMzGD45w8nUL1im7efENZLJpgPSw0pfz0cdt4U3230Td/Tvx2R6d2FrHhEWLkq5PELOMsRPHCPnAZGv1xJteL7jbJiaW3sB2nDvPC/osSYvjRQz4cJ6n7KO3rYQL7M+L6nVtfDVRAEQRAEQRAEQRAEIZ5/SAXmdfXaoQsAAAAASUVORK5CYII=&longCache=true" ></a>
+</p>
 
-2018 年初，我和 Vanessa 从公司离职，正式开始了“全职做开源、自由职业者”的创业生涯。我们建立了一家公司，主要产品是 Sym 社区系统，它的[社区版](https://github.com/88250/symphony)是完全开源的，个人可基于其开源协议免费使用。另外，我们也运营着一个超过 5 万用户的社区[链滴](https://ld246.com)，作为 B3log 分布式社区网络的社区端节点。
+<p align='center'>
+    <img algin="center" src="https://readme-typing-svg.herokuapp.com?color=F1FF64&center=true&vCenter=true&multiline=true&width=500&height=40&lines=Welcome+to+My+Github!+Have+a+nice+Day!!" alt="typing-svg" />
+</p>
+    
 
-最近我们开启了新项目[思源笔记](https://github.com/siyuan-note/siyuan)，这是一款本地离线优先的个人知识管理系统，支持细粒度块级引用和 Markdown 所见即所得，欢迎大家来试用和反馈。
 
-对我和 Vanessa 来说，开源已经不仅仅只是一种爱好，更是一种生活方式，我们对这条“开源生活”之路的未来充满了信心。希望在这条路上我们能通过开源软件帮助到其他人，同时其他人也能帮助到我们。
+## About me 👋
 
-开源连接你我，开源构建未来，让我们一起走进开源的世界！
+- 🔭 I’m currently working on **云视项目后端**
+- 🌱 I’m currently learning **DL** **NLP** **Android**
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: **hxh_create@163.com**
+- 😄 Pronouns: ...
+- ⚡ Fun fact: hhhh
 
-### 我在 GitHub 上的统计
+## 📈Statistics
+<div align="center">
+<span>&emsp;&emsp;</span>
+<img height="170px" src="https://github-readme-stats.vercel.app/api?username=hxhcreate&count_private=true&show_icons=true&theme=tokyonight" /><span>&emsp;&emsp;</span><img height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hxhcreate&layout=compact&langs_count=8&theme=tokyonight" />
+<span>&emsp;&emsp;</span>
+</div>
 
-<a title="Hits" target="_blank" href="https://github.com/88250/88250"><img src="https://hits.b3log.org/88250/88250.svg"></a>
+&nbsp;
+<div align="center">
+    <img  src="https://github-readme-streak-stats.herokuapp.com/?user=hxhcreate&theme=tokyonight" />
+</div>
+&nbsp;
+<div align="center">
+    <img src="https://activity-graph.herokuapp.com/graph?username=hxhcreate&theme=react-dark" />
+</div>
 
-[![Github Stats](https://github-readme-stats.vercel.app/api?username=88250&theme=tokyonight&show_icons=true)](https://github.com/88250)
+## 📺Social
+
+
+## ✨Fun
+<div align="center"><img src="https://raw.githubusercontent.com/Achuan-2/Achuan-2/main/assets/github-contribution-grid-snake.svg" ></div>
+
+
+**hxhcreate/hxhcreate** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+
+
+
 
 <!--events start -->
-
-### 我在链滴的近期动态
-
-每天自动刷新，最近更新时间：`2022-05-13 16:05:42`
-
-📝 帖子 &nbsp; 💬 评论 &nbsp; 🗣 回帖 &nbsp; 🌙 清月 &nbsp; 👨‍💻 用户 &nbsp; 🏷️ 标签 &nbsp; ⭐️ 关注 &nbsp; 👍 赞同 &nbsp; 💗 感谢 &nbsp; 💰 打赏 &nbsp; 🗃 收藏
-
-* 💬 [请问自定义图标支持分类吗？](https://ld246.com/article/1652421593898/comment/1652428444078#comments)
-
-  > 支持一级分类，用文件夹。
-* 💬 [iOS 初步同步失败](https://ld246.com/article/1652422491788/comment/1652428367396#comments)
-
-  > 参考这里试下 [链接]
-* 💬 [反馈一下,iphone12 使用 2.08 版本下载文件失败](https://ld246.com/article/1652414473413/comment/1652416766548#comments)
-
-  > 在主力设备上随意修改一个文档然后同步，完成以后再同步 iOS。如果还是不行，新建一个云端同步目录，用新的目录看看。
-* 💬 [文档树默认 emoji](https://ld246.com/article/1652415087173/comment/1652416671723#comments)
-
-  > 只能适应一下，感谢理解。
-* 💬 [[建议] 能不能增加一个翻译功能](https://ld246.com/article/1652411386093/comment/1652412394385#comments)
-
-  > 应该不会考虑，感谢提议。
-* 💬 [引用内容块时，内容块类型图标没有正确显示](https://ld246.com/article/1652409587759/comment/1652410452249#comments)
-
-  > 设置 - 搜索 - 类型 打开对应选项。
-* 💬 [solo 博客内容中上传的图片是否可以自己删除？](https://ld246.com/article/1652409924624/comment/1652410394977#comments)
-
-  > 目前不支持删除。
-* 💗📝 [v2.0.8 版本有时候标题无法展开](https://ld246.com/article/1652409121702)
-
-  > v2.0.8 版本，右边开着 PDF 文档，当标题靠左时折叠展开按钮失效了，点击后没有反应（上图），无法展开，但是当标题在中间的时候可以正常折叠展开（下图） [图片] [图片]
-
-
 <!--events end -->
